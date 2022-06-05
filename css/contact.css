@@ -31,6 +31,9 @@
   display: flex;
   justify-content: start;
 }
+.contact-info__item:hover{
+  text-decoration: underline;
+}
 
 .contact-info__item:not(:last-child) {
   margin-bottom: 20px;
@@ -41,6 +44,8 @@
   width: 20px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  opacity: 0.55;
 }
 
 .contact-info__item-icon path {
@@ -54,9 +59,16 @@
 
 .contact-info__avatar {
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   object-fit: cover;
   border: 3px solid;
   border-color: var(--text-decoration-color);
+  position: relative;
+  left: 25px;
+}
+@media screen and (max-width: 610px) {
+  .contact-info__avatar{
+    left: 0;
+  }
 }
