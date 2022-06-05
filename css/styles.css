@@ -1,0 +1,6 @@
+@import "./normalize.css";
+@import "./contact.css";
+@import "./experiences.css";
+@import "./intro.css";
+@import "./modal.css";
+@import url("https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.css");
